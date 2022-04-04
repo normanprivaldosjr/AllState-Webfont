@@ -7,7 +7,7 @@ const feedbackBtn = document.querySelector('#feedback-button');
 const feedbackForm = document.querySelector('#feedback-form');
 
 window.addEventListener('load', () => {
-  console.log('zingtreeNodes', zingtreeNodes);
+  console.log('zingtreeNodes', 'v2', zingtreeNodes);
 });
 
 backBtn.innerHTML = `

@@ -6,7 +6,9 @@ const restartBtn = document.querySelector('#restart_button');
 const feedbackBtn = document.querySelector('#feedback-button');
 const feedbackForm = document.querySelector('#feedback-form');
 
-console.log('zingtreeNodes', zingtreeNodes);
+window.addEventListener('load', () => {
+  console.log('zingtreeNodes', zingtreeNodes);
+});
 
 backBtn.innerHTML = `
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
